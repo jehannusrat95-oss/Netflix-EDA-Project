@@ -30,3 +30,12 @@ EDA analysis and Streamlit dashboard development completed.
 ## Dashboard
 
 Live Streamlit Dashboard Link: Add Your Link Here
+
+## EDA Visualizations
+- Movies vs TV Shows
+- Top 10 Countries
+- Top 10 Genres
+- Release Year Analysis
+- Content Rating Analysis
+- Movie Duration Analysis
+
