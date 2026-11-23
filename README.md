@@ -46,4 +46,8 @@ Live Streamlit Dashboard Link: Add Your Link Here
 - Data cleaning was performed before visualization.
 - Charts help us understand Netflix content.
 
+- ## Live Dashboard
+[Click here to view Netflix EDA Dashboard](https://netflix-eda-project-9uzrtu3bsxvmgzf2nm8nek.streamlit.app/)
+
+
 
