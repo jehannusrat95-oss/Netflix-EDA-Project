@@ -23,6 +23,7 @@ Netflix Movies and TV Shows Dataset from Kaggle.
 - Genre Analysis
 - Release Year Analysis
 - Rating Analysis
+- 
 - ## Project Status
 EDA analysis and Streamlit dashboard development completed.
 - Movie Duration Analysis
@@ -38,4 +39,11 @@ Live Streamlit Dashboard Link: Add Your Link Here
 - Release Year Analysis
 - Content Rating Analysis
 - Movie Duration Analysis
+- 
+- ## Project Findings
+- Netflix offers both Movies and TV Shows.
+- The dataset contains information about titles, countries, genres and release years.
+- Data cleaning was performed before visualization.
+- Charts help us understand Netflix content.
+
 
