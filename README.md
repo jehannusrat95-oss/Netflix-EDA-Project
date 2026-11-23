@@ -23,7 +23,10 @@ Netflix Movies and TV Shows Dataset from Kaggle.
 - Genre Analysis
 - Release Year Analysis
 - Rating Analysis
+- ## Project Status
+EDA analysis and Streamlit dashboard development completed.
 - Movie Duration Analysis
 
 ## Dashboard
+
 Live Streamlit Dashboard Link: Add Your Link Here
