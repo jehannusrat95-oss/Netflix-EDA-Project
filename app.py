@@ -4,12 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
 import plotly.express as px                                                                                         
-@st.cache_data
-def load_data():
-    df = pd.read_csv("netflix_titles.csv")
-    return df
 
-df = load_data()
 st.subheader("Scatter Plot Analysis")
 
 fig = px.scatter(
@@ -215,6 +210,12 @@ fig = px.bar(
 )
 
 st.plotly_chart(fig)
+@st.cache_data
+def load_data():
+    df = pd.read_csv("netflix_titles.csv")
+    return df
+
+df = load_data()
 st.header("Project Findings")
 
 st.write("""
