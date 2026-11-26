@@ -4,7 +4,17 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
 import plotly.express as px
+st.subheader("Scatter Plot Analysis")
 
+fig = px.scatter(
+    df,
+    x="release_year",
+    y="duration",
+    color="type",
+    title="Release Year vs Duration"
+)
+
+st.plotly_chart(fig)
 # Load Dataset
 @st.cache_data
 def load_data():
