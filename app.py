@@ -227,3 +227,22 @@ st.write("""
 """)
 
 st.success("Netflix EDA Project Completed!")
+st.header("Scatter Plot Analysis")
+
+movies = df[df["type"] == "Movie"].copy()
+
+movies["duration_num"] = pd.to_numeric(
+    movies["duration"].str.extract(r"(\d+)")[0],
+    errors="coerce"
+)
+
+movies = movies.dropna(subset=["release_year", "duration_num"])
+
+fig = px.scatter(
+    movies,
+    x="release_year",
+    y="duration_num",
+    title="Release Year vs Movie Duration"
+)
+
+st.plotly_chart(fig)
