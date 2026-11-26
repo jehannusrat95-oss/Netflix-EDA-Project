@@ -246,3 +246,14 @@ fig = px.scatter(
 )
 
 st.plotly_chart(fig)
+st.header("Heatmap Analysis")
+
+heatmap_data = df.groupby(["type", "release_year"]).size().unstack(fill_value=0)
+
+fig = px.imshow(
+    heatmap_data,
+    title="Netflix Content Heatmap",
+    labels=dict(x="Release Year", y="Content Type", color="Number of Titles")
+)
+
+st.plotly_chart(fig)
