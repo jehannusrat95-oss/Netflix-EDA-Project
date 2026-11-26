@@ -28,8 +28,8 @@ st.write(df.describe(include="all"))
 st.header("Data Cleaning")
 
 st.subheader("Missing Values")
-st.write(data.isnull().sum())
-st.bar_chart(data.isnull().sum())
+st.write(df.isnull().sum())
+st.bar_chart(df.isnull().sum())
 
 st.subheader("Duplicate Rows")
 st.write(df.duplicated().sum())
